@@ -17,7 +17,7 @@ public class Main {
 
         for(int i = 0; i < N; i++){
             // 명령어 파싱
-            StringTokenizer st = new StringTokenizer(br.readLine());
+            StringTokenizer st = new StringTokenizer(br.readLine()); // 공백으로 나누기.
             String cmd = st.nextToken();
 
             if(cmd.equals("push")){
